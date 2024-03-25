@@ -1,0 +1,40 @@
+.header {
+    background-color: #336699;
+    padding: 20px;
+    color: white;
+  }
+  .introduction {
+    background-color: #f0f0f0;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .skills {
+    margin-top: 20px;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .contact {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .header, .introduction, .skills, .contact {
+      padding: 10px;
+    }
+    
+    .skills li {
+      padding: 8px;
+    }
+  }
+          
